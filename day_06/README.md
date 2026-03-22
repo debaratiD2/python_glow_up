@@ -23,7 +23,7 @@ count = len(positions)
 return(found, count, positions)
 ```
 
-|               **Concept** |                      **Explanation** |                                  **Example** |                                      **Formula**  |
+|**Concept**           |**Explanation**                |**Example**                     |**Formula**                   |
 | --- | --- | --- | --- |
 | **What if we run `text[i:range(len(text))+1]`?** | this would simply cause an **index out of range** error when checking near the end, because the slice **`text[i:i+len(pattern)]`** would extend beyond the string. | `text = "hello"` (len=5), 
 `pattern = "ll"` (len=2)
