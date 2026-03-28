@@ -1,7 +1,6 @@
 
 # String and his pattern 🙄
-==========================
-What’s wrong?
+
 Imagine I’m looking for the word **'aba'** in a long string of letters. I take a magnifying glass that is exactly three letters wide. I start at the very beginning, look through the glass, and ask: 'Does this match?' Then, I slide the glass over by **just one letter** and ask again. Every time I see a match, I write down the position where my glass started.
 
 So I just started solving this by:
