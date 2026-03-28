@@ -17,3 +17,30 @@ val2 = "as you are" in song.values()
 print(val2)
 val3 = 5 not in song
 print(val3)
+
+country_capitals = {
+    "USA": "Washington, D.C.",
+    "France": "Paris",
+    "Japan": "Tokyo"
+}
+print(country_capitals)
+print(country_capitals["USA"]) 
+country_capitals["Germany"] = "Berlin"
+country_capitals["Phillippines"] = "Manila"
+print(country_capitals)
+del country_capitals["USA"]
+print(country_capitals)
+my_dict = {}
+my_dict["name"] = "Alice"
+my_dict["age"] = 30
+print(my_dict)
+
+# Update the age
+my_dict["age"] = 31
+print(my_dict)
+
+# Delete the age
+del my_dict["age"]
+print(my_dict)
+
+

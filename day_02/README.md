@@ -32,3 +32,5 @@ example:for step in range(1, 100):
 7. Infinite Loops --> loops continues forever
      while True:
         print("Dreaming of a world where my code has zero bugs...")
+
+        
