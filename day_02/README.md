@@ -36,7 +36,7 @@ example:for step in range(1, 100):
 
 |  Loop Type |                       Best Use Case |
 | :---: | :---- |
-| **while**  | When the number of iterations is **unknown**depends on a **condition** (e.g., user input, until a flag is set). |
+| **while**  | When the number of iterations is **unknown** depends on a **condition** (e.g., user input, until a flag is set). |
 | **for** | When **you know exactly how many times to iterate** (e.g., **over a list, a fixed range**). |
 
 
