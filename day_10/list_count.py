@@ -12,3 +12,13 @@ data_list = [5, 5, 5, 5, 5, 5]
 
 result = frequency_counter(data_list)
 print(result)
+
+#more effective way to do this
+def frequency_counter(data_list):
+    new_dict = {}
+    for item in data_list:
+        if item in new_dict:
+            new_dict[item] += 1
+        else:
+            new_dict[item] = 1
+    return new_dict
